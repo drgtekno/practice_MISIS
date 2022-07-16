@@ -6,3 +6,6 @@ sklearn
 install
 jupyterlab
 kaggle
+jupyter_client
+nbconvert
+ipykernel
