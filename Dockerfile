@@ -1,5 +1,5 @@
 FROM python:bullseye
 COPY requirements.txt ./
-COPY Task1.ipynb ./
+COPY notebooks_Untitled.ipynb ./
 RUN pip install -r requirements.txt
-RUN jupyter-nbconvert --execute Task1.ipynb --to html
+RUN jupyter-nbconvert --execute notebooks_Untitled.ipynb --to html
